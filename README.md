@@ -22,7 +22,8 @@ Heroku 提供免费账号，部分介绍如下：
 注册地址：https://signup.heroku.com/ （注册和部署过程可能需要梯子[#10](https://github.com/onplus/shadowsocks-heroku/issues/10)，[#14](https://github.com/onplus/shadowsocks-heroku/issues/14)）
 
 ## 部署
-1. 点击 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/onplus/shadowsocks-heroku/tree/re)，[一键部署到heroku](https://heroku.com/deploy?template=https://github.com/onplus/shadowsocks-heroku/tree/re)
+1. 点击 
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/onplus/shadowsocks-heroku/tree/re)，[一键部署到heroku](https://heroku.com/deploy?template=https://github.com/tetsaicn/shadowsocks-heroku-/tree/re)
   
     也可以选择另一个版本的服务端[shadowsocks-websocket-python](https://github.com/onplus/shadowsocks-websocket-python/blob/deploy/README.md)；**手机用户建议部署跨平台支持更好的[v2ray](https://github.com/onplus/v2hero)**
 
@@ -52,13 +53,6 @@ Heroku 提供免费账号，部分介绍如下：
     代理服务器local_address：127.0.0.1 
     代理端口local_port： 1080 
 ```
-    
-## 可选：
-1. 使用无污染DNS https://www.zhihu.com/question/32229915
-2. cow/meow智能代理  https://github.com/cyfdecyf/cow#cow-climb-over-the-wall-proxy
-```
-    #rc配置文件
-    listen = http://127.0.0.1:7777
-    proxy = socks5://127.0.0.1:1080
-```
-3. 网站导航 http://www.ipv6daohang.com/
+## 如何配置telegram？
+PC：打开telegram，左上角三条横线打开菜单，选择设置，一直翻到最下面，倒数第四行可以设置代理，打开后点击右下角的“添加代理”，类型选择socks5，地址127.0.0.1，端口1080
+Android：打开telegram，左上角三条横线打开菜单，选择设置，数据和存储，最下面的代理设置，点进去添加代理，类型选择socks5，地址127.0.0.1，端口1080
