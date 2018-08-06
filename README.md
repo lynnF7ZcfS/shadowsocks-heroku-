@@ -38,7 +38,7 @@ Heroku 提供免费账号，部分介绍如下：
 ## 启动本地 Client
 1. 下载release https://github.com/onplus/shadowsocks-heroku/releases （[备份](https://github.com/onplus/archive/tree/master/tool)）
 
-2. 修改config.json参数,server是服务器地址，将onplus改成你的应用名称，password是你设置的密码，method是加密方式，其它选项请不要动，然后 运行ss-h.exe 或 start.vbs (或 [win托盘工具taskbar.exe](https://github.com/onplus/shadowsocks-heroku/issues/39))
+2. 修改config.json参数,server是服务器地址，将onplus改成你的应用名称，password是你设置的密码，其它选项请不要动，然后 运行ss-h.exe 或 start.vbs (或 [win托盘工具taskbar.exe](https://github.com/onplus/shadowsocks-heroku/issues/39))
 
 5. 启动成功，命令行显示：`server listening at { address: '127.0.0.1', family: 'IPv4', port: 1080 }`
 
